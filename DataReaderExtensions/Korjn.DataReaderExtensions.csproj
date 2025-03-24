@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackRelease>true</PackRelease>
+    <PublishRelease>true</PublishRelease>
+    <PackageId>Korjn.DataReaderExtensions</PackageId>
+    <Authors>Saken</Authors>
+    <Version>9.0.1</Version>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Description>A set of extension methods for `DbDataReader` to simplify data transformation into objects, JSON, and collections</Description>
+    <PackageTags>DbDataReader</PackageTags> <!-- Теги для поиска -->
+    <PackageLicenseExpression>MIT</PackageLicenseExpression> <!-- Лицензия -->
+    <RepositoryUrl>https://github.com/korjn/DataReaderExtensions</RepositoryUrl> <!-- URL репозитория -->
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance> <!-- Требуется ли принятие лицензии -->    
+  </PropertyGroup>
+
+  <ItemGroup>    
+    <None Include="LICENSE" Pack="true" PackagePath="\" />
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>  
+
+</Project>
