@@ -26,7 +26,7 @@ public static class DataReaderExtensions
     /// <typeparam name="T">The type of object to convert to.</typeparam>
     /// <param name="record">The data reader containing the record.</param>
     /// <returns>An instance of <typeparamref name="T"/> populated with data.</returns>
-    public static T? AsObject<T>(this DbDataReader record) where T : new() => DbDataReaderToObject.AsObject<T>(record);
+    public static T? AsObject<T>(this DbDataReader record) where T : new() => DbDataReaderToObjectExpression.AsObject<T>(record);
 
     /// <summary>
     /// Converts a <see cref="DbDataReader"/> to an enumerable collection of objects of type <typeparamref name="T"/>.
@@ -34,7 +34,7 @@ public static class DataReaderExtensions
     /// <typeparam name="T">The type of objects to convert to.</typeparam>
     /// <param name="record">The data reader containing the records.</param>
     /// <returns>An enumerable collection of <typeparamref name="T"/> instances.</returns>
-    public static IEnumerable<T> AsEnumerable<T>(this DbDataReader record) where T : new() => DbDataReaderToObject.ToObjects<T>(record);
+    public static IEnumerable<T> AsEnumerable<T>(this DbDataReader record) where T : new() => DbDataReaderToObjectExpression.ToObjects<T>(record);
 
     /// <summary>
     /// Converts a <see cref="DbDataReader"/> to a <see cref="JsonArray"/>.
