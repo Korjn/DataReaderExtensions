@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korjn.DataReaderExtensions", "src\Korjn.DataReaderExtensions.csproj", "{C2E5621C-ADEA-A054-312A-FAE51B68D507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korjn.Data.DataReader.Extensions.Test", "test\Korjn.Data.DataReader.Extensions.Test.csproj", "{B2BDB87C-E49A-8D94-7ABE-136D163EC18E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2E5621C-ADEA-A054-312A-FAE51B68D507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2E5621C-ADEA-A054-312A-FAE51B68D507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2E5621C-ADEA-A054-312A-FAE51B68D507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2E5621C-ADEA-A054-312A-FAE51B68D507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2BDB87C-E49A-8D94-7ABE-136D163EC18E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2BDB87C-E49A-8D94-7ABE-136D163EC18E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2BDB87C-E49A-8D94-7ABE-136D163EC18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2BDB87C-E49A-8D94-7ABE-136D163EC18E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17324F4E-AF8B-4850-B397-B8EED4A6433F}
+	EndGlobalSection
+EndGlobal
