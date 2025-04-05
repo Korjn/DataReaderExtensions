@@ -17,11 +17,6 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression> <!-- Лицензия -->
     <RepositoryUrl>https://github.com/korjn/DataReaderExtensions</RepositoryUrl> <!-- URL репозитория -->
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance> <!-- Требуется ли принятие лицензии -->    
-  </PropertyGroup>
-
-  <ItemGroup>    
-    <None Include="LICENSE" Pack="true" PackagePath="\" />
-    <None Include="README.md" Pack="true" PackagePath="\" />
-  </ItemGroup>  
+  </PropertyGroup>  
 
 </Project>
